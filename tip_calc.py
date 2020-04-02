@@ -16,11 +16,20 @@
 #setup
 
 bill = int(input('Enter total of bill: '))
-service_level = input('How was the service? /(Good, Fair, Bad/)').lower
+service_level = input('How was the service? (good, fair, bad)')
 
 #code to make it happen
 
+tip = 0
+if service_level == 'good':
+    tip += bill * .2
+elif  service_level == 'fair':
+    tip += bill * .15
+elif service_level == 'bad':
+    tip += bill * .1
+
+bill_total = tip + bill
 
 #final output
-print tip
-ptint bill_total
+print(tip)
+print(bill_total)
