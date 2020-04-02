@@ -31,5 +31,5 @@ elif service_level == 'bad':
 bill_total = tip + bill
 
 #final output
-print(tip)
-print(bill_total)
+print(f'Tip amount: {tip}')
+print(f'Total of bill: {bill_total}')
