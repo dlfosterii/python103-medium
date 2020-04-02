@@ -1,5 +1,5 @@
 # Your task is to write a program that calculates how much of a tip to leave at a restaurant.
-# and split the bill.
+# and split the bill. This is an update to check git.
 
 #setup
 
