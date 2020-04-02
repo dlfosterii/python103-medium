@@ -5,6 +5,7 @@
 
 bill = int(input('Enter total of bill: '))
 service_level = input('How was the service? (good, fair, bad)')
+split = int(input('Total ways to split bill: '))
 
 #calculate tip amount
 
@@ -19,6 +20,10 @@ elif service_level == 'bad':
 #calculate bill total
 bill_total = tip + bill
 
+#calculate split amounts
+total_split = bill_total / split
+
 #final output
 print(f'Tip amount: {tip}')
 print(f'Total of bill: {bill_total}')
+print(f'Amount per person: {total_split}')
